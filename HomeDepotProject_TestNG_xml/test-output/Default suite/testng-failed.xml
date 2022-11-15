@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="website" value="https://www.homedepot.com/"/>
+  <parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="HomeDepotWebsiteTest.HomeDepotPageTest">
+        <methods>
+          <include name="Ibrowsers"/>
+          <include name="f"/>
+          <include name="AfterTestClass"/>
+        </methods>
+      </class> <!-- HomeDepotWebsiteTest.HomeDepotPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

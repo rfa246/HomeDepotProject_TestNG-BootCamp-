@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+<listeners>
+<listener class-name="Ilisteners.Ilisteners"></listener>
+</listeners>
+<test name="ir">
+<parameter name="website" value="https://www.homedepot.com/"></parameter>
+<parameter name="browser" value="Chrome"></parameter>
+<classes>
+<class name="HomeDepotWebsiteTest.HomeDepotPageTest"></class>
+</classes>
+</test>
+</suite>
+
